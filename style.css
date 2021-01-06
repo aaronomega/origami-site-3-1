@@ -1,0 +1,67 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size:20px ;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+
+}
+a {
+    color:white;
+}
+.bodyImg{
+    background-color: black;
+    color: blanchedalmond;
+}
+body{
+background-color: rgb(246, 250, 240);
+margin: 0px;
+justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    border:2px solid black;
+    border-radius: 50px;
+
+}
+.Origami{
+    border-radius: 20px ;
+    background-color: rgb(246, 250, 240);
+    padding:30px;
+    margin : 25px;
+    width:310px;
+    font-family: fantasy;
+}
+.Origami{
+    position: relative;
+    
+}
+
+.Origami p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.Origami:hover img{
+  transform:scale(1.2);  
+}
+a:visited{
+    color:blue;
+}
+a:link{
+    color: red;
+}
